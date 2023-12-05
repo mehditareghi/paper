@@ -28,8 +28,8 @@ const Header = () => {
   };
 
   return (
-    <header className='bg-blue-950'>
-      <div className='flex items-center justify-between mx-auto lg:mx-[300px] p-4 lg:px-0'>
+    <header className='bg-blue-950 py-2'>
+      <div className='flex items-center justify-between mx-auto lg:mx-48 p-4 lg:px-0'>
         <div className='text-white text-lg'>کاغذ:)</div>
         <div className='lg:hidden' onClick={toggleMenu}>
           <div className='h-1 w-6 bg-white my-1'></div>
