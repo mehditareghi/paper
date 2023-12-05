@@ -4,7 +4,7 @@ const Layout = ({ children }: any) => {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main className='p-4 lg:px-48'>{children}</main>
     </>
   );
 };
