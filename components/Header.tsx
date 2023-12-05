@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <header className='bg-blue-950'>
-      <div className='flex items-center justify-between mx-auto lg:mx-48 p-4 lg:px-0'>
+      <div className='flex items-center justify-between mx-auto lg:mx-[300px] p-4 lg:px-0'>
         <div className='text-white text-lg'>کاغذ:)</div>
         <div className='lg:hidden' onClick={toggleMenu}>
           <div className='h-1 w-6 bg-white my-1'></div>
@@ -55,9 +55,7 @@ const Header = () => {
             })}
           </nav>
         </div>
-        <div
-          className='hidden lg:block'
-        >
+        <div className='hidden lg:block'>
           <nav className='p-4 lg:flex lg:p-0'>
             {navLinks.map((link, index) => {
               return (
